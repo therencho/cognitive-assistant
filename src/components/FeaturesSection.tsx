@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 
 const FeaturesSection: React.FC = () => {
-  const dreamFeatures = [
+  const researchFeatures = [
     {
       icon: MessageSquare,
       title: "Natural Conversations",
@@ -86,23 +86,23 @@ const FeaturesSection: React.FC = () => {
           </motion.div>
           
           <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-400 mb-6">
-            Envisioned Features
+            Our Vision
           </h2>
           
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            These are the capabilities we're <span className="text-teal-400 font-semibold">dreaming of building</span> - 
-            features that could revolutionize how we interact with AI assistants.
+            A <span className="text-teal-400 font-semibold">privacy-focused AI companion robot</span> that runs entirely on local hardware - 
+            revolutionizing how we interact with AI while keeping your data truly private.
           </p>
           
           <div className="mt-8 inline-flex items-center px-6 py-3 bg-teal-500/20 border border-teal-400/30 rounded-full">
             <Eye className="w-5 h-5 text-teal-400 mr-2" />
-            <span className="text-teal-300 font-medium">Vision in Development</span>
+            <span className="text-teal-300 font-medium">Local AI Assistant</span>
           </div>
         </motion.div>
 
         {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {dreamFeatures.map((feature, index) => (
+          {researchFeatures.map((feature, index) => (
             <motion.div
               key={feature.title}
               initial={{ opacity: 0, y: 50 }}
@@ -152,65 +152,7 @@ const FeaturesSection: React.FC = () => {
           ))}
         </div>
 
-        {/* Development Timeline */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.8 }}
-          viewport={{ once: true }}
-          className="mt-20 text-center"
-        >
-          <h3 className="text-2xl font-bold text-white mb-8">Development Roadmap</h3>
-          
-          <div className="flex flex-col md:flex-row justify-center items-center gap-8 max-w-4xl mx-auto">
-            <div className="bg-gradient-to-r from-teal-500/20 to-cyan-500/20 p-6 rounded-2xl border border-teal-500/30 flex-1">
-              <div className="text-teal-400 font-bold mb-2">Phase 1 - Current</div>
-              <div className="text-white font-semibold mb-2">Foundation & Research</div>
-              <div className="text-gray-300 text-sm">Exploring AI models, hardware requirements, and privacy architectures</div>
-            </div>
-            
-            <div className="hidden md:block text-gray-500">→</div>
-            
-            <div className="bg-gradient-to-r from-cyan-500/20 to-teal-400/20 p-6 rounded-2xl border border-cyan-500/30 flex-1">
-              <div className="text-cyan-400 font-bold mb-2">Phase 2</div>
-              <div className="text-white font-semibold mb-2">Core Development</div>
-              <div className="text-gray-300 text-sm">Building the AI engine and basic conversation capabilities</div>
-            </div>
-            
-            <div className="hidden md:block text-gray-500">→</div>
-            
-            <div className="bg-gradient-to-r from-teal-400/20 to-teal-500/20 p-6 rounded-2xl border border-teal-400/30 flex-1">
-              <div className="text-teal-400 font-bold mb-2">Phase 3</div>
-              <div className="text-white font-semibold mb-2">Feature Integration</div>
-              <div className="text-gray-300 text-sm">Adding smart home control, scheduling, and advanced features</div>
-            </div>
-          </div>
-        </motion.div>
 
-        {/* Call to Action */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 1 }}
-          viewport={{ once: true }}
-          className="mt-16 text-center"
-        >
-          <div className="bg-gradient-to-r from-teal-500/10 to-cyan-500/10 p-8 rounded-3xl border border-teal-500/20">
-            <h3 className="text-2xl font-bold text-white mb-4">Want to Follow Our Journey?</h3>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              We're building something special, and we'd love to have you along for the ride. 
-              Get updates on our progress and be the first to know when we have something to share.
-            </p>
-            
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-gradient-to-r from-teal-500 to-cyan-500 text-white px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-teal-500/25 transition-all duration-300"
-            >
-              Stay Updated
-            </motion.button>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

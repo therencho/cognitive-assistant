@@ -13,22 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cognitive AI Assistant - Privacy-Focused AI Companion",
-  description: "Experience the future of AI assistants with our privacy-focused, offline AI companion featuring real-time conversation, smart home control, and intelligent scheduling.",
+  title: "Cognitive AI Assistant - Research Project in Development",
+  description: "Join our research journey to develop a privacy-focused, offline AI companion featuring real-time conversation, smart home control, and intelligent scheduling.",
   keywords: ["AI Assistant", "Privacy", "Offline AI", "Smart Home", "Jetson Nano", "Local LLM", "IoT"],
   authors: [{ name: "Cognitive Assistant Team" }],
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   openGraph: {
-    title: "Cognitive AI Assistant - Privacy-Focused AI Companion",
-    description: "Experience the future of AI assistants with our privacy-focused, offline AI companion",
+    title: "Cognitive AI Assistant - Research Project in Development",
+    description: "Join our research journey to develop a privacy-focused, offline AI companion",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cognitive AI Assistant",
-    description: "Privacy-focused, offline AI assistant with smart home control",
+    title: "Cognitive AI Assistant - Research Project",
+    description: "Research initiative for privacy-focused, offline AI assistant development",
   },
 };
 

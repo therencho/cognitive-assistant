@@ -30,7 +30,6 @@ const HeroSection: React.FC = () => {
               <Lightbulb className="w-6 h-6 md:w-8 md:h-8 text-teal-400" />
             </motion.div>
             <span className="bg-gradient-to-r from-teal-400 to-cyan-400 text-transparent bg-clip-text text-sm md:text-lg font-semibold">
-              DREAM PROJECT IN DEVELOPMENT
             </span>
           </div>
           
@@ -41,53 +40,14 @@ const HeroSection: React.FC = () => {
           </h1>
           
           <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
-            <span className="text-teal-400 font-semibold">Envisioning</span> a privacy-first AI assistant that runs entirely on your device. 
-            <br className="hidden md:block" />
-            <span className="text-teal-300">No cloud. No tracking. Just pure, private AI.</span>
+            <span className="text-teal-400 font-semibold"></span> A Assistant Robot, Privacy Focused with local AI processing.
+            <span className="text-teal-300"><br></br>No cloud. No tracking. Just pure, Personal Assistant.</span>
           </p>
 
-          <div className="flex flex-wrap justify-center gap-3 md:gap-4 text-sm text-gray-400 mb-8">
-            <div className="flex items-center">
-              <div className="w-2 h-2 bg-teal-400 rounded-full mr-2 animate-pulse"></div>
-              <span>Early Development</span>
-            </div>
-            <div className="flex items-center">
-              <div className="w-2 h-2 bg-cyan-400 rounded-full mr-2 animate-pulse"></div>
-              <span>Prototype Phase</span>
-            </div>
-            <div className="flex items-center">
-              <div className="w-2 h-2 bg-teal-300 rounded-full mr-2 animate-pulse"></div>
-              <span>Vision 2025</span>
-            </div>
-          </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
-        >
-          <motion.button 
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-gradient-to-r from-teal-500 to-cyan-500 text-white px-6 py-3 md:px-8 md:py-4 rounded-full text-base md:text-lg font-semibold shadow-2xl hover:shadow-teal-500/25 transition-all duration-300 flex items-center justify-center"
-          >
-            <Rocket className="w-4 h-4 md:w-5 md:h-5 mr-2" />
-            Follow the Journey
-          </motion.button>
           
-          <motion.button 
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="border-2 border-teal-400 text-teal-400 px-6 py-3 md:px-8 md:py-4 rounded-full text-base md:text-lg font-semibold hover:bg-teal-400/10 transition-all duration-300 flex items-center justify-center"
-          >
-            <Heart className="w-4 h-4 md:w-5 md:h-5 mr-2" />
-            Support the Vision
-          </motion.button>
         </motion.div>
 
-        {/* Dream Features Preview */}
+        {/* Research Features Preview */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

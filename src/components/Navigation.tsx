@@ -14,7 +14,7 @@ const Navigation: React.FC = () => {
       setScrolled(window.scrollY > 50);
       
       // Update active section based on scroll position
-      const sections = ['hero', 'features', 'about', 'contact'];
+      const sections = ['hero', 'story', 'features', 'contact'];
       const scrollPosition = window.scrollY + 100;
       
       for (const section of sections) {
@@ -77,9 +77,9 @@ const Navigation: React.FC = () => {
   }, [isMenuOpen]);
 
   const navItems = [
-    { name: 'Dream', id: 'hero', icon: '✨' },
+    { name: 'Home', id: 'hero', icon: '🏠' },
+    { name: 'Story', id: 'story', icon: '📖' },
     { name: 'Vision', id: 'features', icon: '🔮' },
-    { name: 'Story', id: 'about', icon: '📖' },
     { name: 'Connect', id: 'contact', icon: '💫' },
   ];
 
@@ -131,7 +131,7 @@ const Navigation: React.FC = () => {
                   whileTap={{ scale: 0.95 }}
                   className={`relative font-medium transition-all duration-300 px-3 py-2 rounded-lg group ${
                     activeSection === item.id
-                      ? 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20'
+                      ? 'text-teal-600 dark:text-teal-400 bg-teal-100 dark:bg-teal-900/30'
                       : 'text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 hover:bg-teal-50/50 dark:hover:bg-teal-900/10'
                   }`}
                 >
@@ -197,7 +197,7 @@ const Navigation: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900 dark:text-white">Navigation</h3>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Dream Project</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Research Project</p>
                   </div>
                 </div>
                 <motion.button

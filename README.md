@@ -1,6 +1,6 @@
-# Cognitive Assistant - Dream Project 🌟
+# Cognitive Assistant - Research Project 🔬
 
-> **A Vision for Privacy-First AI** - This is my dream project still in development. Join me on this journey to create a truly private AI assistant that runs entirely on local devices.
+> **A Vision for Privacy-First AI** - This is my research project currently in development. Join me on this learning journey to create a truly private AI assistant that runs entirely on local devices.
 
 ## 💭 The Vision
 
@@ -43,7 +43,7 @@ This project is currently in **early development phase**. Here's what's happenin
 
 **Ranchhod bhai Aal** - Co-Founder & Strategist  
 - Email: [me@therencho.com](mailto:me@therencho.com)
-- *"Turning dreams into reality through innovative technology"*
+- *"Turning research into reality through innovative technology"*
 
 ## 🛠 Planned Technology Stack
 
@@ -117,9 +117,9 @@ This is more than just a project - it's a movement towards truly private AI.
 
 ## 🔮 The Future
 
-This project started as a dream - to create AI that truly serves users without compromising their privacy. While we're still in the early stages, every great innovation starts with a vision.
+This project started as a research initiative - to create AI that truly serves users without compromising their privacy. While we're still in the early stages, every great innovation starts with curiosity and dedication to learning.
 
-**Will you join us in making this dream a reality?**
+**Will you join us in making this vision a reality?**
 
 ---
 
@@ -131,4 +131,4 @@ This project is currently in development. Licensing details will be finalized as
 
 ---
 
-© 2024 Cognitive Assistant Dream Project by Rohitkumar Luni & Ranchhod bhai Aal. Built with ❤️ and big dreams.
+© 2024 Cognitive Assistant Research Project by Rohitkumar Luni & Ranchhod bhai Aal. Built with ❤️ and dedication to learning.

@@ -167,6 +167,17 @@ const ContactSection: React.FC = () => {
                     </a>
                   </div>
                 </div>
+                <div className="flex items-center p-4 bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700">
+                  <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                    <span className="text-white font-bold text-sm md:text-base">N</span>
+                  </div>
+                  <div className="flex-1 text-left">
+                    <p className="font-semibold text-gray-900 dark:text-white text-sm md:text-base">Neel Gajera</p>
+                    <a href="mailto:rohitluni123@gmail.com" className="text-teal-600 dark:text-teal-400 hover:underline text-sm">
+                    neelgajera783@gmail.com
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 

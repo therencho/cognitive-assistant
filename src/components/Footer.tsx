@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
                 <span className="text-sm">by Enthusiasts</span>
               </div>
               <div className="text-xs text-teal-200">
-                The Rencho & Rohit Luni
+                Ranchhodbhai & Rohit
               </div>
             </div>
           </motion.div>
